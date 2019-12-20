@@ -1,1 +1,26 @@
-{"plugins": ["youtube", "accordion", "image-captions", "edit-link", "githubcontributors"], "pluginsConfig": {"image-captions": {"caption": "Imagen - _CAPTION_"}, "edit-link": {"base": "https://github.com/catedu/etwinning/edit/master", "label": "Edita esta página"}, "githubcontributors": {"githubOwner": "catedu", "githubRepository": "etwinning"}}}
+{
+  "plugins": [
+    "youtube",
+    "accordion",
+    "image-captions",
+    "edit-link",
+    "githubcontributors",
+    "ga"
+  ],
+  "pluginsConfig": {
+    "image-captions": {
+      "caption": "Imagen - _CAPTION_"
+    },
+    "edit-link": {
+      "base": "https://github.com/catedu/etwinning/edit/master",
+      "label": "Edita esta página"
+    },
+    "githubcontributors": {
+      "githubOwner": "catedu",
+      "githubRepository": "etwinning"
+    },
+    "ga": {
+      "token": "UA-135691041-2"
+    }
+  }
+}
